@@ -1,0 +1,10 @@
+---
+title: "Learning Diary"
+format: html
+---
+
+Welcome. This is my RS learning diary for the module.
+
+- Each week is a chapter.
+- The diary focuses on concepts and reflections.
+- Practical code is developed in a separate project (not run here).
