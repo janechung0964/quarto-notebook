@@ -8,5 +8,35 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Learning Diary</span>"
     ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "3  week2",
+    "section": "",
+    "text": "3.1 Week 2 Practical Slides",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#week-2-practical-slides-1",
+    "href": "week2.html#week-2-practical-slides-1",
+    "title": "3  week2",
+    "section": "3.2 Week 2 Practical Slides",
+    "text": "3.2 Week 2 Practical Slides",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#week-2-learning-diary-portfolio-tools",
+    "href": "week2.html#week-2-learning-diary-portfolio-tools",
+    "title": "3  week2",
+    "section": "3.3 Week 2 Learning Diary: Portfolio Tools",
+    "text": "3.3 Week 2 Learning Diary: Portfolio Tools\n\n3.3.1 Summary of weekly task\nThis week focused on learning how to create and manage an online learning portfolio using Quarto and xaringan. The main task was to build a structured Quarto website and produce a short presentation in Markdown format, embedding the slides directly into the weekly notebook.\n\n\n3.3.2 What I learned\nThrough working with xaringan, I learned how presentation slides can be created using R Markdown rather than traditional slide software. This approach integrates text, figures and explanations into a single, reproducible workflow, making it easier to update and maintain presentation content over time.\nUsing Quarto to organise weekly notebooks helped me understand the importance of project structure, file organisation and relative paths when building a multi-week portfolio. Embedding the slides into the Week 2 page highlighted how different outputs can be combined into a coherent and public-facing learning record.\n\n\n3.3.3 Reflection\nThis week shifted my perspective from producing isolated files to thinking in terms of a reusable and extensible workflow. Although working with Quarto and xaringan initially required more effort than familiar tools, the approach offers clear advantages for documenting learning processes and maintaining transparency. I expect this structure to become increasingly valuable in later weeks, when more complex practical work needs to be clearly communicated and archived.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+    ]
   }
 ]
