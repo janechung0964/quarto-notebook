@@ -2,4 +2,33 @@
 title: "week2"
 format: html
 ---
+## Week 2 Practical Slides
+
+<iframe
+  src="slides/week2practical.html"
+  width="100%"
+  height="650"
+  style="border:1px solid #ddd; border-radius:8px;">
+</iframe>
+
+## Week 2 Learning Diary: Portfolio Tools
+
+### Summary of weekly task
+
+This week focused on learning how to create and manage an online learning portfolio using Quarto and xaringan.
+The main task was to build a structured Quarto website and produce a short presentation in Markdown format, embedding the slides directly into the weekly notebook.
+
+### What I learned
+
+Through working with xaringan, I learned how presentation slides can be created using R Markdown rather than traditional slide software.
+This approach integrates text, figures and explanations into a single, reproducible workflow, making it easier to update and maintain presentation content over time.
+
+Using Quarto to organise weekly notebooks helped me understand the importance of project structure, file organisation and relative paths when building a multi-week portfolio.
+Embedding the slides into the Week 2 page highlighted how different outputs can be combined into a coherent and public-facing learning record.
+
+### Reflection
+
+This week shifted my perspective from producing isolated files to thinking in terms of a reusable and extensible workflow.
+Although working with Quarto and xaringan initially required more effort than familiar tools, the approach offers clear advantages for documenting learning processes and maintaining transparency.
+I expect this structure to become increasingly valuable in later weeks, when more complex practical work needs to be clearly communicated and archived.
 
