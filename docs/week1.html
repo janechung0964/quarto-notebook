@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; week1 – Learning Diary</title>
+<title>2&nbsp; Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2 – Learning Diary</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week1.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">week1</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week1.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">week1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -131,15 +131,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">2.1</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">2.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">2.3</span> Reflection</a></li>
+  <li><a href="#extended-reflection-from-visualisation-to-analysis" id="toc-extended-reflection-from-visualisation-to-analysis" class="nav-link" data-scroll-target="#extended-reflection-from-visualisation-to-analysis"><span class="header-section-number">2.4</span> Extended Reflection: From Visualisation to Analysis</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">week1</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span></h1>
 </div>
 
 
@@ -156,8 +165,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="summary" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">2.1</span> Summary</h2>
+<p>This week introduced the basic ideas of remote sensing and how satellite data can be used to observe the Earth. The focus was on understanding what satellite images represent and how they differ from normal photographs. Instead of showing objects directly, remote sensing data records reflected energy from the Earth’s surface across different wavelengths. This helped me realise that satellite images are measurements rather than pictures.</p>
+<p>Sentinel-2 data was used as the main example throughout the week. I learned that a single Sentinel-2 product contains multiple spectral bands, and each band responds differently to land cover features such as water, vegetation, and built-up areas. True colour images combine red, green, and blue bands to approximate human vision, while individual bands highlight specific surface properties.</p>
+<p><img src="images/week1/truecolour.png" class="img-fluid" style="width:80.0%"></p>
+<p><em>True colour image used for initial visual interpretation of the study area.</em></p>
+<p>Overall, this week built a foundation for understanding how satellite data is structured and why different visualisations are needed for different analytical purposes. It also clarified the difference between raw satellite data and processed visual outputs.</p>
+<hr>
+</section>
+<section id="applications" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">2.2</span> Applications</h2>
+<p>The practical work showed how remote sensing can support real-world analysis by revealing patterns that are not visible from ground-level observation. Using a single spectral band demonstrated how reflectance values vary across surfaces. For example, water areas appear very dark in the red band because water absorbs most of the incoming radiation, while snow and bare rock appear bright due to high reflectance.</p>
+<p><img src="images/week1/band4.png" class="img-fluid" style="width:75.0%"></p>
+<p><em>Red band reflectance highlighting contrast between water, vegetation, and snow-covered terrain.</em></p>
+<p>Combining multiple bands into an RGB composite improved visual clarity. Vegetated areas became easier to identify, and the spatial structure of coastlines and islands was clearer. This type of visualisation is useful for mapping, landscape interpretation, and comparison across regions.</p>
+<p><img src="images/week1/rgb.png" class="img-fluid" style="width:75.0%"></p>
+<p><em>RGB composite enhancing land cover contrast.</em></p>
+<p>These methods are relevant for environmental monitoring, urban studies, and land-cover mapping. They show how satellite data can support decision-making by providing consistent spatial information over large areas.</p>
+<hr>
+</section>
+<section id="reflection" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">2.3</span> Reflection</h2>
+<p>This week changed how I think about images in general. I used to see satellite images as similar to aerial photos, but I now understand that they are data products shaped by sensor design and processing choices. The same place can look very different depending on which bands are used and how they are combined.</p>
+<p>I also realised that visual interpretation alone has limits. While RGB images are intuitive, they do not directly measure environmental conditions. This highlighted the importance of indices and quantitative approaches, which will become more important later in the course.</p>
+<p>The practical tasks helped connect theory to actual data, but they also showed that careful interpretation is needed. Colours can be misleading if their meaning is not understood. This week made me more cautious and more critical when reading satellite imagery.</p>
+<hr>
+</section>
+<section id="extended-reflection-from-visualisation-to-analysis" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="extended-reflection-from-visualisation-to-analysis"><span class="header-section-number">2.4</span> Extended Reflection: From Visualisation to Analysis</h2>
+<p>A key takeaway from this week was the difference between visual appearance and analytical value. Visual products are helpful for orientation and communication, but they are only the first step. For example, vegetation may look green in an RGB image, but this does not directly describe its condition or density.</p>
+<p><img src="images/week1/ndvi.png" class="img-fluid" style="width:75.0%"></p>
+<p><em>NDVI map showing vegetation distribution across the study area.</em></p>
+<p>The introduction of NDVI showed how combining bands mathematically can produce more meaningful information. Unlike RGB images, NDVI provides a clearer link to physical surface properties. This helped me understand why remote sensing is widely used in environmental and urban analysis.</p>
+<p>This week laid the groundwork for later practical work. It showed that learning remote sensing is not only about tools, but also about thinking carefully about what the data represents and what questions it can realistically answer.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
