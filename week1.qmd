@@ -1,5 +1,59 @@
 ---
-title: "week1"
+title: "Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2"
 format: html
 ---
+
+## Summary
+
+This week introduced the basic ideas of remote sensing and how satellite data can be used to observe the Earth. The focus was on understanding what satellite images represent and how they differ from normal photographs. Instead of showing objects directly, remote sensing data records reflected energy from the Earth’s surface across different wavelengths. This helped me realise that satellite images are measurements rather than pictures.
+
+Sentinel-2 data was used as the main example throughout the week. I learned that a single Sentinel-2 product contains multiple spectral bands, and each band responds differently to land cover features such as water, vegetation, and built-up areas. True colour images combine red, green, and blue bands to approximate human vision, while individual bands highlight specific surface properties.
+
+![](images/week1/truecolour.png){width=80%}
+
+*True colour image used for initial visual interpretation of the study area.*
+
+Overall, this week built a foundation for understanding how satellite data is structured and why different visualisations are needed for different analytical purposes. It also clarified the difference between raw satellite data and processed visual outputs.
+
+---
+
+## Applications
+
+The practical work showed how remote sensing can support real-world analysis by revealing patterns that are not visible from ground-level observation. Using a single spectral band demonstrated how reflectance values vary across surfaces. For example, water areas appear very dark in the red band because water absorbs most of the incoming radiation, while snow and bare rock appear bright due to high reflectance.
+
+![](images/week1/band4.png){width=75%}
+
+*Red band reflectance highlighting contrast between water, vegetation, and snow-covered terrain.*
+
+Combining multiple bands into an RGB composite improved visual clarity. Vegetated areas became easier to identify, and the spatial structure of coastlines and islands was clearer. This type of visualisation is useful for mapping, landscape interpretation, and comparison across regions.
+
+![](images/week1/rgb.png){width=75%}
+
+*RGB composite enhancing land cover contrast.*
+
+These methods are relevant for environmental monitoring, urban studies, and land-cover mapping. They show how satellite data can support decision-making by providing consistent spatial information over large areas.
+
+---
+
+## Reflection
+
+This week changed how I think about images in general. I used to see satellite images as similar to aerial photos, but I now understand that they are data products shaped by sensor design and processing choices. The same place can look very different depending on which bands are used and how they are combined.
+
+I also realised that visual interpretation alone has limits. While RGB images are intuitive, they do not directly measure environmental conditions. This highlighted the importance of indices and quantitative approaches, which will become more important later in the course.
+
+The practical tasks helped connect theory to actual data, but they also showed that careful interpretation is needed. Colours can be misleading if their meaning is not understood. This week made me more cautious and more critical when reading satellite imagery.
+
+---
+
+## Extended Reflection: From Visualisation to Analysis
+
+A key takeaway from this week was the difference between visual appearance and analytical value. Visual products are helpful for orientation and communication, but they are only the first step. For example, vegetation may look green in an RGB image, but this does not directly describe its condition or density.
+
+![](images/week1/ndvi.png){width=75%}
+
+*NDVI map showing vegetation distribution across the study area.*
+
+The introduction of NDVI showed how combining bands mathematically can produce more meaningful information. Unlike RGB images, NDVI provides a clearer link to physical surface properties. This helped me understand why remote sensing is widely used in environmental and urban analysis.
+
+This week laid the groundwork for later practical work. It showed that learning remote sensing is not only about tools, but also about thinking carefully about what the data represents and what questions it can realistically answer.
 
