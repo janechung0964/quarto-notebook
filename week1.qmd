@@ -27,7 +27,7 @@ The practical work showed how remote sensing can support real-world analysis by 
 
 Combining multiple bands into an RGB composite improved visual clarity. Vegetated areas became easier to identify, and the spatial structure of coastlines and islands was clearer. This type of visualisation is useful for mapping, landscape interpretation, and comparison across regions.
 
-![](images/week1/rgb.png){width=75%}
+![](images/week1/rbg.png){width=75%}
 
 *RGB composite enhancing land cover contrast.*
 
