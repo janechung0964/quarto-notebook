@@ -1,0 +1,48 @@
+---
+title: "Week 3"
+subtitle: "Corrections"
+author: "JIAJUN ZHONG"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+# Week 3 – Corrections
+
+## Summary
+
+This week focused on the idea of corrections in remote sensing and why they are necessary before any meaningful analysis. Satellite images do not directly show surface conditions. Instead, they record energy that has travelled through the atmosphere, interacted with the surface, and been captured by a sensor. Because of this process, raw images include effects that are not related to the surface itself.
+
+The lectures introduced three main types of correction: radiometric, atmospheric, and geometric correction. Radiometric correction explains how raw pixel values, stored as digital numbers, do not represent real physical properties. These values are influenced by the sensor and acquisition conditions. Converting them into radiance or reflectance makes images more comparable across space and time.
+
+Atmospheric correction addresses the impact of scattering and absorption in the atmosphere. This is important because the atmosphere can make images appear brighter or more grey than the real surface. A simple method, Dark Object Subtraction, was introduced to estimate and remove this atmospheric effect using very dark features such as deep water or shadows.
+
+Geometric correction focuses on spatial accuracy. Because of sensor angle, Earth curvature, and terrain effects, raw images may not align correctly with real-world locations. Correcting this allows satellite images to be used together with other spatial data, which is especially important in urban studies.
+
+---
+
+## Applications
+
+Corrections are widely used in studies that rely on Earth observation data for urban analysis. Many land cover and land use studies apply radiometric and atmospheric correction before classification to ensure that differences in pixel values represent real surface differences rather than sensor or atmospheric effects. This is particularly important when comparing images from different dates to study urban growth or land cover change.
+
+In urban environments, atmospheric correction is often necessary because cities tend to have higher levels of air pollution and aerosols. These conditions increase scattering and can strongly affect image quality. Studies that use vegetation indices or surface reflectance products usually apply atmospheric correction to reduce these influences and improve the reliability of their results.
+
+Geometric correction is also essential in practical applications. Urban remote sensing studies often combine satellite images with GIS layers such as road networks, building footprints, or administrative boundaries. Without geometric correction, these datasets may not align correctly, which can lead to errors in spatial analysis. For this reason, corrections are a standard part of operational workflows in urban remote sensing and planning-related studies.
+
+---
+
+## Reflection
+
+This week helped me realise how important data preparation is in remote sensing. Before learning about corrections, I mainly focused on what could be done with satellite images after they were loaded into software. The lectures showed that analysis results depend strongly on how the data are corrected at the beginning.
+
+I also found that corrections are especially important for urban studies. Cities contain many different surface materials, strong shadows, and complex atmospheric conditions. These factors make urban imagery sensitive to error. Even simple correction methods can improve the reliability of analysis when more advanced data or models are not available.
+
+Overall, this week made me more cautious when working with Earth observation data. It highlighted that understanding data limitations is as important as applying methods. I expect this awareness to be useful in later weeks of the course and in future work that combines remote sensing data with GIS or policy-related analysis.
+
+
+
