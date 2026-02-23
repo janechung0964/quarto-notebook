@@ -1,0 +1,112 @@
+---
+title: "Week 4 — Policy"
+subtitle: "Scenario-Based Coastal Flood Risk Assessment for Protection Planning in Reykjavík"
+author: "JIAJUN ZHONG"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Introduction
+
+Climate change presents long-term challenges for coastal cities, particularly through sea-level rise and storm surge intensification. Reykjavík, as a coastal capital city, contains economically significant waterfront areas, port infrastructure, transport links, and residential districts located in low-lying zones. While much of the coastline is already developed and partially protected, future climate uncertainty raises questions about the adequacy and prioritisation of structural coastal protection measures.
+
+This study explores how scenario-based Earth Observation (EO) analysis can support protection-oriented climate adaptation planning in Reykjavík by identifying spatial exposure under plausible future sea-level rise conditions.
+
+---
+
+## Policy Context
+
+At the municipal level, Reykjavík has adopted climate strategies aimed at strengthening resilience and adapting to long-term climate risks. Effective adaptation planning requires spatially explicit evidence identifying where exposure is most likely to increase under future scenarios.
+
+Protection-focused adaptation (e.g., reinforcement of coastal infrastructure, seawalls, port defences) requires prioritisation. Limited public resources must be directed toward coastal segments where the concentration of vulnerable urban assets is highest. EO-derived scenario modelling provides a transparent and reproducible basis for such prioritisation.
+
+---
+
+## Scenario-Based Future Inundation Modelling
+
+Rather than producing deterministic forecasts, this analysis applies a stress-testing framework using two sea-level rise scenarios:
+
+- Scenario 1: +0.5 m sea-level rise  
+- Scenario 2: +1.0 m sea-level rise  
+
+These scenarios function as policy benchmarks, allowing planners to evaluate how exposure patterns shift as climate pressure increases.
+
+---
+
+## Data Framework
+
+The analysis integrates three core spatial components:
+
+### 1. Elevation Data (DEM)
+
+A Digital Elevation Model (e.g., Copernicus DEM or ArcticDEM) is used to identify low-lying coastal areas potentially inundated under each sea-level scenario.
+
+### 2. Coastal Delineation
+
+Optical satellite imagery (Sentinel-2 or Landsat) supports shoreline validation and accurate separation between terrestrial and marine surfaces.
+
+### 3. Exposure Layer (Built-Up Areas)
+
+Built-up land is extracted from optical imagery (e.g., using NDBI or land cover classifications) to approximate the spatial distribution of urban assets potentially at risk.
+
+---
+
+## Method: Screening Inundation Model
+
+A threshold-based “bathtub” inundation model is implemented:
+
+- Areas where **elevation ≤ scenario sea-level increment** are classified as potentially inundated.
+- A coastal connectivity constraint ensures that only low-lying areas connected to the sea are retained.
+
+While this simplified approach does not simulate hydrodynamic processes such as wave action or storm surge dynamics, it provides a transparent and replicable first-stage risk screening suitable for strategic policy planning.
+
+---
+
+## Policy-Relevant Outputs
+
+The scenario modelling generates planning indicators including:
+
+- Total potential inundation area (km²) under each scenario  
+- Exposed built-up area (km² and %)  
+- Identification of high-exposure coastal segments  
+
+These outputs support protection-oriented adaptation by identifying which stretches of coastline contain the highest concentration of vulnerable assets, thereby informing prioritisation of structural coastal reinforcement.
+
+---
+
+## Policy Implications: Protection-Oriented Adaptation
+
+The results do not prescribe specific engineering interventions but provide an evidence base to guide decision-making. Scenario-based exposure mapping enables:
+
+- Prioritisation of structural protection investments  
+- Integration of coastal risk zones into spatial planning  
+- Strengthening of infrastructure resilience strategies  
+
+By translating uncertain climate futures into spatially explicit exposure maps, EO becomes a decision-support tool within urban climate governance.
+
+---
+
+## Alignment with Global Frameworks
+
+This analysis aligns with international sustainable development objectives:
+
+- SDG 11.5: By identifying areas where coastal hazards may affect urban assets, the study contributes to reducing the potential impacts of climate-related disasters on cities.
+- SDG 11.b: The integration of spatial risk evidence into planning processes supports integrated disaster risk management.
+- SDG 13.1: Scenario-based modelling strengthens climate adaptation capacity and enhances resilience to climate-related hazards.
+
+Through this local-to-global linkage, Earth Observation supports multi-level governance by connecting municipal adaptation planning to broader climate resilience frameworks.
+
+---
+
+## Reflection
+
+This exercise highlighted the importance of framing remote sensing within governance rather than purely technical analysis. Scenario-based modelling is valuable not because it predicts the future with certainty, but because it structures uncertainty in a way that supports planning decisions.
+
+Even a simplified inundation model can meaningfully inform policy if it is transparent, reproducible, and clearly aligned with planning objectives. At the same time, recognising methodological limitations is essential. The screening approach does not account for complex hydrodynamic processes, meaning outputs should be interpreted as indicative rather than definitive. This reinforces the need to position EO analysis as decision-support evidence within broader adaptation strategies rather than as a standalone solution.
