@@ -12,101 +12,101 @@
   {
     "objectID": "week1.html",
     "href": "week1.html",
-    "title": "2  Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2",
+    "title": "Week 1 — getting start",
     "section": "",
-    "text": "2.1 Summary\nThis week introduced the basic ideas of remote sensing and how satellite data can be used to observe the Earth. The focus was on understanding what satellite images represent and how they differ from normal photographs. Instead of showing objects directly, remote sensing data records reflected energy from the Earth’s surface across different wavelengths. This helped me realise that satellite images are measurements rather than pictures.\nSentinel-2 data was used as the main example throughout the week. I learned that a single Sentinel-2 product contains multiple spectral bands, and each band responds differently to land cover features such as water, vegetation, and built-up areas. True colour images combine red, green, and blue bands to approximate human vision, while individual bands highlight specific surface properties.\nTrue colour image used for initial visual interpretation of the study area.\nOverall, this week built a foundation for understanding how satellite data is structured and why different visualisations are needed for different analytical purposes. It also clarified the difference between raw satellite data and processed visual outputs.",
+    "text": "Summary\nThis week introduced the basic ideas of remote sensing and how satellite data can be used to observe the Earth. The focus was on understanding what satellite images represent and how they differ from normal photographs. Instead of showing objects directly, remote sensing data records reflected energy from the Earth’s surface across different wavelengths. This helped me realise that satellite images are measurements rather than pictures.\nSentinel-2 data was used as the main example throughout the week. I learned that a single Sentinel-2 product contains multiple spectral bands, and each band responds differently to land cover features such as water, vegetation, and built-up areas. True colour images combine red, green, and blue bands to approximate human vision, while individual bands highlight specific surface properties.\nTrue colour image used for initial visual interpretation of the study area.\nOverall, this week built a foundation for understanding how satellite data is structured and why different visualisations are needed for different analytical purposes. It also clarified the difference between raw satellite data and processed visual outputs.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 — getting start</span>"
     ]
   },
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
-    "title": "2  Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2",
-    "section": "2.2 Applications",
-    "text": "2.2 Applications\nThe practical work showed how remote sensing can support real-world analysis by revealing patterns that are not visible from ground-level observation. Using a single spectral band demonstrated how reflectance values vary across surfaces. For example, water areas appear very dark in the red band because water absorbs most of the incoming radiation, while snow and bare rock appear bright due to high reflectance.\n\nRed band reflectance highlighting contrast between water, vegetation, and snow-covered terrain.\nCombining multiple bands into an RGB composite improved visual clarity. Vegetated areas became easier to identify, and the spatial structure of coastlines and islands was clearer. This type of visualisation is useful for mapping, landscape interpretation, and comparison across regions.\n\nRGB composite enhancing land cover contrast.\nThese methods are relevant for environmental monitoring, urban studies, and land-cover mapping. They show how satellite data can support decision-making by providing consistent spatial information over large areas.",
+    "title": "Week 1 — getting start",
+    "section": "Applications",
+    "text": "Applications\nThe practical work showed how remote sensing can support real-world analysis by revealing patterns that are not visible from ground-level observation. Using a single spectral band demonstrated how reflectance values vary across surfaces. For example, water areas appear very dark in the red band because water absorbs most of the incoming radiation, while snow and bare rock appear bright due to high reflectance.\n\nRed band reflectance highlighting contrast between water, vegetation, and snow-covered terrain.\nCombining multiple bands into an RGB composite improved visual clarity. Vegetated areas became easier to identify, and the spatial structure of coastlines and islands was clearer. This type of visualisation is useful for mapping, landscape interpretation, and comparison across regions.\n\nRGB composite enhancing land cover contrast.\nThese methods are relevant for environmental monitoring, urban studies, and land-cover mapping. They show how satellite data can support decision-making by providing consistent spatial information over large areas.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 — getting start</span>"
     ]
   },
   {
     "objectID": "week1.html#reflection",
     "href": "week1.html#reflection",
-    "title": "2  Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2",
-    "section": "2.3 Reflection",
-    "text": "2.3 Reflection\nThis week changed how I think about images in general. I used to see satellite images as similar to aerial photos, but I now understand that they are data products shaped by sensor design and processing choices. The same place can look very different depending on which bands are used and how they are combined.\nI also realised that visual interpretation alone has limits. While RGB images are intuitive, they do not directly measure environmental conditions. This highlighted the importance of indices and quantitative approaches, which will become more important later in the course.\nThe practical tasks helped connect theory to actual data, but they also showed that careful interpretation is needed. Colours can be misleading if their meaning is not understood. This week made me more cautious and more critical when reading satellite imagery.",
+    "title": "Week 1 — getting start",
+    "section": "Reflection",
+    "text": "Reflection\nThis week changed how I think about images in general. I used to see satellite images as similar to aerial photos, but I now understand that they are data products shaped by sensor design and processing choices. The same place can look very different depending on which bands are used and how they are combined.\nI also realised that visual interpretation alone has limits. While RGB images are intuitive, they do not directly measure environmental conditions. This highlighted the importance of indices and quantitative approaches, which will become more important later in the course.\nThe practical tasks helped connect theory to actual data, but they also showed that careful interpretation is needed. Colours can be misleading if their meaning is not understood. This week made me more cautious and more critical when reading satellite imagery.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 — getting start</span>"
     ]
   },
   {
     "objectID": "week1.html#extended-reflection-from-visualisation-to-analysis",
     "href": "week1.html#extended-reflection-from-visualisation-to-analysis",
-    "title": "2  Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2",
-    "section": "2.4 Extended Reflection: From Visualisation to Analysis",
-    "text": "2.4 Extended Reflection: From Visualisation to Analysis\nA key takeaway from this week was the difference between visual appearance and analytical value. Visual products are helpful for orientation and communication, but they are only the first step. For example, vegetation may look green in an RGB image, but this does not directly describe its condition or density.\n\nNDVI map showing vegetation distribution across the study area.\nThe introduction of NDVI showed how combining bands mathematically can produce more meaningful information. Unlike RGB images, NDVI provides a clearer link to physical surface properties. This helped me understand why remote sensing is widely used in environmental and urban analysis.\nThis week laid the groundwork for later practical work. It showed that learning remote sensing is not only about tools, but also about thinking carefully about what the data represents and what questions it can realistically answer.",
+    "title": "Week 1 — getting start",
+    "section": "Extended Reflection: From Visualisation to Analysis",
+    "text": "Extended Reflection: From Visualisation to Analysis\nA key takeaway from this week was the difference between visual appearance and analytical value. Visual products are helpful for orientation and communication, but they are only the first step. For example, vegetation may look green in an RGB image, but this does not directly describe its condition or density.\n\nNDVI map showing vegetation distribution across the study area.\nThe introduction of NDVI showed how combining bands mathematically can produce more meaningful information. Unlike RGB images, NDVI provides a clearer link to physical surface properties. This helped me understand why remote sensing is widely used in environmental and urban analysis.\nThis week laid the groundwork for later practical work. It showed that learning remote sensing is not only about tools, but also about thinking carefully about what the data represents and what questions it can realistically answer.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 1 — getting start</span>"
     ]
   },
   {
     "objectID": "week2.html",
     "href": "week2.html",
-    "title": "3  week2",
+    "title": "Week 2 — Portfolio",
     "section": "",
-    "text": "3.1 Week 2 Practical Slides",
+    "text": "Week 2 Practical Slides",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 — Portfolio</span>"
     ]
   },
   {
     "objectID": "week2.html#week-2-learning-diary-portfolio-tools",
     "href": "week2.html#week-2-learning-diary-portfolio-tools",
-    "title": "3  week2",
-    "section": "3.2 Week 2 Learning Diary: Portfolio Tools",
-    "text": "3.2 Week 2 Learning Diary: Portfolio Tools\n\n3.2.1 Summary of weekly task\nThis week focused on learning how to create and manage an online learning portfolio using Quarto and xaringan. The main task was to build a structured Quarto website and produce a short presentation in Markdown format, embedding the slides directly into the weekly notebook.\n\n\n3.2.2 What I learned\nThrough working with xaringan, I learned how presentation slides can be created using R Markdown rather than traditional slide software. This approach integrates text, figures and explanations into a single, reproducible workflow, making it easier to update and maintain presentation content over time.\nUsing Quarto to organise weekly notebooks helped me understand the importance of project structure, file organisation and relative paths when building a multi-week portfolio. Embedding the slides into the Week 2 page highlighted how different outputs can be combined into a coherent and public-facing learning record.\n\n\n3.2.3 Reflection\nThis week shifted my perspective from producing isolated files to thinking in terms of a reusable and extensible workflow. Although working with Quarto and xaringan initially required more effort than familiar tools, the approach offers clear advantages for documenting learning processes and maintaining transparency. I expect this structure to become increasingly valuable in later weeks, when more complex practical work needs to be clearly communicated and archived.",
+    "title": "Week 2 — Portfolio",
+    "section": "Week 2 Learning Diary: Portfolio Tools",
+    "text": "Week 2 Learning Diary: Portfolio Tools\n\nSummary of weekly task\nThis week focused on learning how to create and manage an online learning portfolio using Quarto and xaringan. The main task was to build a structured Quarto website and produce a short presentation in Markdown format, embedding the slides directly into the weekly notebook.\n\n\nWhat I learned\nThrough working with xaringan, I learned how presentation slides can be created using R Markdown rather than traditional slide software. This approach integrates text, figures and explanations into a single, reproducible workflow, making it easier to update and maintain presentation content over time.\nUsing Quarto to organise weekly notebooks helped me understand the importance of project structure, file organisation and relative paths when building a multi-week portfolio. Embedding the slides into the Week 2 page highlighted how different outputs can be combined into a coherent and public-facing learning record.\n\n\nReflection\nThis week shifted my perspective from producing isolated files to thinking in terms of a reusable and extensible workflow. Although working with Quarto and xaringan initially required more effort than familiar tools, the approach offers clear advantages for documenting learning processes and maintaining transparency. I expect this structure to become increasingly valuable in later weeks, when more complex practical work needs to be clearly communicated and archived.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>week2</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week 2 — Portfolio</span>"
     ]
   },
   {
     "objectID": "week3.html",
     "href": "week3.html",
-    "title": "Week 3",
+    "title": "Week 3 — Corrections",
     "section": "",
     "text": "Week 3 – Corrections",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 — Corrections</span>"
     ]
   },
   {
     "objectID": "week3.html#summary",
     "href": "week3.html#summary",
-    "title": "Week 3",
+    "title": "Week 3 — Corrections",
     "section": "Summary",
     "text": "Summary\nThis week focused on the idea of corrections in remote sensing and why they are necessary before any meaningful analysis. Satellite images do not directly show surface conditions. Instead, they record energy that has travelled through the atmosphere, interacted with the surface, and been captured by a sensor. Because of this process, raw images include effects that are not related to the surface itself.\nThe lectures introduced three main types of correction: radiometric, atmospheric, and geometric correction. Radiometric correction explains how raw pixel values, stored as digital numbers, do not represent real physical properties. These values are influenced by the sensor and acquisition conditions. Converting them into radiance or reflectance makes images more comparable across space and time.\nAtmospheric correction addresses the impact of scattering and absorption in the atmosphere. This is important because the atmosphere can make images appear brighter or more grey than the real surface. A simple method, Dark Object Subtraction, was introduced to estimate and remove this atmospheric effect using very dark features such as deep water or shadows.\nGeometric correction focuses on spatial accuracy. Because of sensor angle, Earth curvature, and terrain effects, raw images may not align correctly with real-world locations. Correcting this allows satellite images to be used together with other spatial data, which is especially important in urban studies.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 — Corrections</span>"
     ]
   },
   {
     "objectID": "week3.html#applications",
     "href": "week3.html#applications",
-    "title": "Week 3",
+    "title": "Week 3 — Corrections",
     "section": "Applications",
     "text": "Applications\nCorrections are widely used in studies that rely on Earth observation data for urban analysis. Many land cover and land use studies apply radiometric and atmospheric correction before classification to ensure that differences in pixel values represent real surface differences rather than sensor or atmospheric effects. This is particularly important when comparing images from different dates to study urban growth or land cover change.\nIn urban environments, atmospheric correction is often necessary because cities tend to have higher levels of air pollution and aerosols. These conditions increase scattering and can strongly affect image quality. Studies that use vegetation indices or surface reflectance products usually apply atmospheric correction to reduce these influences and improve the reliability of their results.\nGeometric correction is also essential in practical applications. Urban remote sensing studies often combine satellite images with GIS layers such as road networks, building footprints, or administrative boundaries. Without geometric correction, these datasets may not align correctly, which can lead to errors in spatial analysis. For this reason, corrections are a standard part of operational workflows in urban remote sensing and planning-related studies.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 — Corrections</span>"
     ]
   },
   {
     "objectID": "week3.html#reflection",
     "href": "week3.html#reflection",
-    "title": "Week 3",
+    "title": "Week 3 — Corrections",
     "section": "Reflection",
     "text": "Reflection\nThis week helped me realise how important data preparation is in remote sensing. Before learning about corrections, I mainly focused on what could be done with satellite images after they were loaded into software. The lectures showed that analysis results depend strongly on how the data are corrected at the beginning.\nI also found that corrections are especially important for urban studies. Cities contain many different surface materials, strong shadows, and complex atmospheric conditions. These factors make urban imagery sensitive to error. Even simple correction methods can improve the reliability of analysis when more advanced data or models are not available.\nOverall, this week made me more cautious when working with Earth observation data. It highlighted that understanding data limitations is as important as applying methods. I expect this awareness to be useful in later weeks of the course and in future work that combines remote sensing data with GIS or policy-related analysis.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 — Corrections</span>"
     ]
   },
   {
