@@ -1,6 +1,16 @@
 ---
-title: "Week 1 Learning Diary: Introduction to Remote Sensing and Sentinel-2"
-format: html
+title: "Week 1 — getting start"
+subtitle: "Introduction to Remote Sensing and Sentinel-2"
+author: "JIAJUN ZHONG"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 ## Summary

@@ -1,6 +1,15 @@
 ---
-title: "week2"
-format: html
+title: "Week 2 — Portfolio"
+author: "JIAJUN ZHONG"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 ## Week 2 Practical Slides
 
