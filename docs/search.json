@@ -108,5 +108,95 @@
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3</span>"
     ]
+  },
+  {
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "Week 4 — Policy",
+    "section": "",
+    "text": "Introduction\nClimate change presents long-term challenges for coastal cities, particularly through sea-level rise and storm surge intensification. Reykjavík, as a coastal capital city, contains economically significant waterfront areas, port infrastructure, transport links, and residential districts located in low-lying zones. While much of the coastline is already developed and partially protected, future climate uncertainty raises questions about the adequacy and prioritisation of structural coastal protection measures.\nThis study explores how scenario-based Earth Observation (EO) analysis can support protection-oriented climate adaptation planning in Reykjavík by identifying spatial exposure under plausible future sea-level rise conditions.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#policy-context",
+    "href": "week4.html#policy-context",
+    "title": "Week 4 — Policy",
+    "section": "Policy Context",
+    "text": "Policy Context\nAt the municipal level, Reykjavík has adopted climate strategies aimed at strengthening resilience and adapting to long-term climate risks. Effective adaptation planning requires spatially explicit evidence identifying where exposure is most likely to increase under future scenarios.\nProtection-focused adaptation (e.g., reinforcement of coastal infrastructure, seawalls, port defences) requires prioritisation. Limited public resources must be directed toward coastal segments where the concentration of vulnerable urban assets is highest. EO-derived scenario modelling provides a transparent and reproducible basis for such prioritisation.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#scenario-based-future-inundation-modelling",
+    "href": "week4.html#scenario-based-future-inundation-modelling",
+    "title": "Week 4 — Policy",
+    "section": "Scenario-Based Future Inundation Modelling",
+    "text": "Scenario-Based Future Inundation Modelling\nRather than producing deterministic forecasts, this analysis applies a stress-testing framework using two sea-level rise scenarios:\n\nScenario 1: +0.5 m sea-level rise\n\nScenario 2: +1.0 m sea-level rise\n\nThese scenarios function as policy benchmarks, allowing planners to evaluate how exposure patterns shift as climate pressure increases.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#data-framework",
+    "href": "week4.html#data-framework",
+    "title": "Week 4 — Policy",
+    "section": "Data Framework",
+    "text": "Data Framework\nThe analysis integrates three core spatial components:\n\n1. Elevation Data (DEM)\nA Digital Elevation Model (e.g., Copernicus DEM or ArcticDEM) is used to identify low-lying coastal areas potentially inundated under each sea-level scenario.\n\n\n2. Coastal Delineation\nOptical satellite imagery (Sentinel-2 or Landsat) supports shoreline validation and accurate separation between terrestrial and marine surfaces.\n\n\n3. Exposure Layer (Built-Up Areas)\nBuilt-up land is extracted from optical imagery (e.g., using NDBI or land cover classifications) to approximate the spatial distribution of urban assets potentially at risk.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#method-screening-inundation-model",
+    "href": "week4.html#method-screening-inundation-model",
+    "title": "Week 4 — Policy",
+    "section": "Method: Screening Inundation Model",
+    "text": "Method: Screening Inundation Model\nA threshold-based “bathtub” inundation model is implemented:\n\nAreas where elevation ≤ scenario sea-level increment are classified as potentially inundated.\nA coastal connectivity constraint ensures that only low-lying areas connected to the sea are retained.\n\nWhile this simplified approach does not simulate hydrodynamic processes such as wave action or storm surge dynamics, it provides a transparent and replicable first-stage risk screening suitable for strategic policy planning.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#policy-relevant-outputs",
+    "href": "week4.html#policy-relevant-outputs",
+    "title": "Week 4 — Policy",
+    "section": "Policy-Relevant Outputs",
+    "text": "Policy-Relevant Outputs\nThe scenario modelling generates planning indicators including:\n\nTotal potential inundation area (km²) under each scenario\n\nExposed built-up area (km² and %)\n\nIdentification of high-exposure coastal segments\n\nThese outputs support protection-oriented adaptation by identifying which stretches of coastline contain the highest concentration of vulnerable assets, thereby informing prioritisation of structural coastal reinforcement.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#policy-implications-protection-oriented-adaptation",
+    "href": "week4.html#policy-implications-protection-oriented-adaptation",
+    "title": "Week 4 — Policy",
+    "section": "Policy Implications: Protection-Oriented Adaptation",
+    "text": "Policy Implications: Protection-Oriented Adaptation\nThe results do not prescribe specific engineering interventions but provide an evidence base to guide decision-making. Scenario-based exposure mapping enables:\n\nPrioritisation of structural protection investments\n\nIntegration of coastal risk zones into spatial planning\n\nStrengthening of infrastructure resilience strategies\n\nBy translating uncertain climate futures into spatially explicit exposure maps, EO becomes a decision-support tool within urban climate governance.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#alignment-with-global-frameworks",
+    "href": "week4.html#alignment-with-global-frameworks",
+    "title": "Week 4 — Policy",
+    "section": "Alignment with Global Frameworks",
+    "text": "Alignment with Global Frameworks\nThis analysis aligns with international sustainable development objectives:\n\nSDG 11.5: By identifying areas where coastal hazards may affect urban assets, the study contributes to reducing the potential impacts of climate-related disasters on cities.\nSDG 11.b: The integration of spatial risk evidence into planning processes supports integrated disaster risk management.\nSDG 13.1: Scenario-based modelling strengthens climate adaptation capacity and enhances resilience to climate-related hazards.\n\nThrough this local-to-global linkage, Earth Observation supports multi-level governance by connecting municipal adaptation planning to broader climate resilience frameworks.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html#reflection",
+    "href": "week4.html#reflection",
+    "title": "Week 4 — Policy",
+    "section": "Reflection",
+    "text": "Reflection\nThis exercise highlighted the importance of framing remote sensing within governance rather than purely technical analysis. Scenario-based modelling is valuable not because it predicts the future with certainty, but because it structures uncertainty in a way that supports planning decisions.\nEven a simplified inundation model can meaningfully inform policy if it is transparent, reproducible, and clearly aligned with planning objectives. At the same time, recognising methodological limitations is essential. The screening approach does not account for complex hydrodynamic processes, meaning outputs should be interpreted as indicative rather than definitive. This reinforces the need to position EO analysis as decision-support evidence within broader adaptation strategies rather than as a standalone solution.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
   }
 ]
