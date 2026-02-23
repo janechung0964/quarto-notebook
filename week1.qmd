@@ -1,7 +1,7 @@
 ---
-title: "Week 1 — getting start"
-subtitle: "Introduction to Remote Sensing and Sentinel-2"
-author: "JIAJUN ZHONG"
+title: "Week 1 — getting started"
+subtitle: "Introduction to Remote Sensing and Sentinel-2"S
+author: "ZHONG JIAJUN"
 format:
   html:
     toc: true

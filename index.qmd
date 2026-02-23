@@ -3,8 +3,8 @@ title: "Learning Diary"
 format: html
 ---
 
-Welcome. This is my RS learning diary for the module.
+Welcome to my Remote Sensing learning diary.
 
-- Each week is a chapter.
-- The diary focuses on concepts and reflections.
-- Practical code is developed in a separate project (not run here).
+This site documents my conceptual and methodological development throughout the CASA0023 module. Each chapter represents one week of learning, moving from foundational principles of satellite observation to more advanced analytical and policy-oriented applications.
+
+The diary emphasises critical understanding rather than code execution. While practical workflows are developed separately, this space focuses on how Earth Observation data can be interpreted, evaluated, and applied to urban and environmental decision-making.

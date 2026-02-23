@@ -1,6 +1,6 @@
 ---
 title: "Week 2 — Portfolio"
-author: "JIAJUN ZHONG"
+author: "ZHONG JIAJUN"
 format:
   html:
     toc: true

@@ -7,12 +7,12 @@ project:
 book:
   title: "Learning Diary"
   author: "ZHONG JIAJUN"
-  date: "20/01/2026"
   chapters:
     - index.qmd
     - week1.qmd
     - week2.qmd
     - week3.qmd
+    - week4.qmd
 
 format:
   html:
