@@ -1,6 +1,6 @@
 ---
-title: "Week 1 — getting started"
-subtitle: "Introduction to Remote Sensing and Sentinel-2"S
+title: "Week 1 — Getting started"
+subtitle: "Introduction to Remote Sensing and Sentinel-2"
 author: "ZHONG JIAJUN"
 format:
   html:
@@ -11,6 +11,7 @@ execute:
   echo: false
   warning: false
   message: false
+---
 ---
 
 ## Summary
