@@ -8,7 +8,7 @@
 
 <meta name="author" content="ZHONG JIAJUN">
 
-<title>Learning Diary</title>
+<title>Week 5 — GEE – Learning Diary</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week1.html" rel="next">
+<link href="./week4.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Learning Diary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week5.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 5 — GEE</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Learning Diary</span></span></a>
   </div>
 </li>
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
+  <a href="./week5.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 5 — GEE</span></span></a>
   </div>
 </li>
@@ -149,15 +149,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning Diary</h1>
+<h1 class="title"><span class="chapter-title">Week 5 — GEE</span></h1>
+<p class="subtitle lead">Landsat 8 Compositing and NDVI Mapping for Ho Chi Minh City</p>
 </div>
 
 
@@ -180,11 +189,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my Remote Sensing learning diary.</p>
-<p>This site documents my conceptual and methodological development throughout the CASA0023 module. Each chapter represents one week of learning, moving from foundational principles of satellite observation to more advanced analytical and policy-oriented applications.</p>
-<p>The diary emphasises critical understanding rather than code execution. While practical workflows are developed separately, this space focuses on how Earth Observation data can be interpreted, evaluated, and applied to urban and environmental decision-making.</p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>This week’s practical focused on multi-temporal image compositing and vegetation index analysis using Landsat 8 Collection 2 Level 2 surface reflectance data in Google Earth Engine (GEE). I selected Ho Chi Minh City (2023–2024) as my study area in order to explore how different compositing strategies influence image clarity and NDVI derivation in a humid tropical urban environment.</p>
+<p>The workflow began by filtering the Landsat 8 image collection by spatial boundary (Ho Chi Minh City administrative boundary) and temporal range (January 2023 to December 2024). A scene-level cloud cover threshold (&lt;40%) was applied to exclude highly contaminated scenes. Surface reflectance scale factors were then implemented to convert raw digital numbers into physically meaningful reflectance values.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week5/boundary.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. Administrative boundary of Ho Chi Minh City used as the spatial extent of analysis.</figcaption>
+</figure>
+</div>
+<p>To evaluate compositing strategies, I first generated a baseline RGB composite using a simple temporal median without applying pixel-level QA cloud masking. This image allowed me to observe how much atmospheric contamination remains when only scene-level filtering is used. While the urban structure was clearly visible, subtle haze and tonal inconsistencies were still present, especially in coastal and vegetated areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week5/rgb_nomask.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Median RGB composite without pixel-level cloud masking. Residual haze and tonal inconsistencies remain visible.</figcaption>
+</figure>
+</div>
+<p>Next, I applied QA bitmask filtering to remove cloud-contaminated pixels prior to compositing. In addition, I calculated NDVI and implemented an NDVI-based <code>qualityMosaic</code> approach, which prioritises pixels with higher vegetation values when constructing the final composite. This produced a noticeably clearer RGB image with improved contrast and spatial consistency.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week5/rgb_quality.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. NDVI-based quality mosaic composite showing improved clarity and reduced cloud artefacts.</figcaption>
+</figure>
+</div>
+<p>Finally, NDVI was derived from the refined composite using the standard formulation (NIR − Red) / (NIR + Red). The resulting NDVI map clearly distinguishes vegetated areas, dense urban cores, and water bodies across the metropolitan region.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week5/ndvi.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. NDVI map derived from the quality mosaic composite. Higher values represent vegetation while lower values correspond to built-up areas and water.</figcaption>
+</figure>
+</div>
+<p>This comparison demonstrates that compositing strategy selection significantly influences both visual quality and analytical outputs in tropical remote sensing applications.</p>
+</section>
+<section id="applications" class="level2">
+<h2 class="anchored" data-anchor-id="applications">Applications</h2>
+<p>Cloud contamination remains one of the primary constraints in optical remote sensing, particularly in equatorial and tropical regions where persistent cloud cover limits usable observations. Many studies relying on Landsat or Sentinel imagery implement pixel-level quality masking and multi-temporal compositing to overcome this limitation. Roy et al.&nbsp;(2014) emphasise the importance of the Landsat Collection quality assessment bands for maintaining radiometric consistency and reliability across time series datasets. Automated cloud detection approaches, such as those discussed by Zhu and Woodcock (2012), further enhance the robustness of compositing workflows.</p>
+<p>In urban environmental research, improved compositing directly affects downstream analyses such as land cover classification, urban heat island mapping, vegetation monitoring, and floodplain delineation. NDVI-based compositing is particularly useful in ecological and urban greening studies because it prioritises vegetation-rich pixels, often resulting in visually cleaner outputs. However, this method may introduce subtle bias by favouring vegetated surfaces over built-up areas, potentially influencing spectral representation in dense urban cores. This highlights the importance of methodological transparency when integrating Earth Observation data into environmental monitoring frameworks or policy-driven assessments.</p>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>This practical changed my perception of image compositing from being a routine preprocessing step to a methodological decision that shapes analytical interpretation. In a cloud-prone tropical city such as Ho Chi Minh City, simple median compositing is insufficient for producing stable outputs. While NDVI-based quality mosaicking clearly improves image clarity, it may also prioritise certain land cover types, influencing downstream analyses. In future work, I would consider comparing percentile-based or median-of-best-pixels approaches to further evaluate compositing trade-offs. Overall, this exercise strengthened my understanding of how preprocessing decisions directly affect the reliability and credibility of urban remote sensing analysis.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -589,11 +637,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./week4.html" class="pagination-link" aria-label="Week 4 — Policy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 4 — Policy</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week1.html" class="pagination-link" aria-label="Week 1 — Getting started">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 1 — Getting started</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -80,16 +80,6 @@
     ]
   },
   {
-    "objectID": "week3.html#summary",
-    "href": "week3.html#summary",
-    "title": "Week 3 — Corrections",
-    "section": "Summary",
-    "text": "Summary\nThis week focused on the idea of corrections in remote sensing and why they are necessary before any meaningful analysis. Satellite images do not directly show surface conditions. Instead, they record energy that has travelled through the atmosphere, interacted with the surface, and been captured by a sensor. Because of this process, raw images include effects that are not related to the surface itself.\nThe lectures introduced three main types of correction: radiometric, atmospheric, and geometric correction. Radiometric correction explains how raw pixel values, stored as digital numbers, do not represent real physical properties. These values are influenced by the sensor and acquisition conditions. Converting them into radiance or reflectance makes images more comparable across space and time.\nAtmospheric correction addresses the impact of scattering and absorption in the atmosphere. This is important because the atmosphere can make images appear brighter or more grey than the real surface. A simple method, Dark Object Subtraction, was introduced to estimate and remove this atmospheric effect using very dark features such as deep water or shadows.\nGeometric correction focuses on spatial accuracy. Because of sensor angle, Earth curvature, and terrain effects, raw images may not align correctly with real-world locations. Correcting this allows satellite images to be used together with other spatial data, which is especially important in urban studies.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week 3 — Corrections</span>"
-    ]
-  },
-  {
     "objectID": "week3.html#applications",
     "href": "week3.html#applications",
     "title": "Week 3 — Corrections",
@@ -197,6 +187,46 @@
     "text": "Reflection\nThis exercise highlighted the importance of framing remote sensing within governance rather than purely technical analysis. Scenario-based modelling is valuable not because it predicts the future with certainty, but because it structures uncertainty in a way that supports planning decisions.\nEven a simplified inundation model can meaningfully inform policy if it is transparent, reproducible, and clearly aligned with planning objectives. At the same time, recognising methodological limitations is essential. The screening approach does not account for complex hydrodynamic processes, meaning outputs should be interpreted as indicative rather than definitive. This reinforces the need to position EO analysis as decision-support evidence within broader adaptation strategies rather than as a standalone solution.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week 4 — Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html",
+    "href": "week5.html",
+    "title": "Week 5 — GEE",
+    "section": "",
+    "text": "Summary\nThis week’s practical focused on multi-temporal image compositing and vegetation index analysis using Landsat 8 Collection 2 Level 2 surface reflectance data in Google Earth Engine (GEE). I selected Ho Chi Minh City (2023–2024) as my study area in order to explore how different compositing strategies influence image clarity and NDVI derivation in a humid tropical urban environment.\nThe workflow began by filtering the Landsat 8 image collection by spatial boundary (Ho Chi Minh City administrative boundary) and temporal range (January 2023 to December 2024). A scene-level cloud cover threshold (&lt;40%) was applied to exclude highly contaminated scenes. Surface reflectance scale factors were then implemented to convert raw digital numbers into physically meaningful reflectance values.\nTo evaluate compositing strategies, I first generated a baseline RGB composite using a simple temporal median without applying pixel-level QA cloud masking. This image allowed me to observe how much atmospheric contamination remains when only scene-level filtering is used. While the urban structure was clearly visible, subtle haze and tonal inconsistencies were still present, especially in coastal and vegetated areas.\nNext, I applied QA bitmask filtering to remove cloud-contaminated pixels prior to compositing. In addition, I calculated NDVI and implemented an NDVI-based qualityMosaic approach, which prioritises pixels with higher vegetation values when constructing the final composite. This produced a noticeably clearer RGB image with improved contrast and spatial consistency.\nFinally, NDVI was derived from the refined composite using the standard formulation (NIR − Red) / (NIR + Red). The resulting NDVI map clearly distinguishes vegetated areas, dense urban cores, and water bodies across the metropolitan region.\nThis comparison demonstrates that compositing strategy selection significantly influences both visual quality and analytical outputs in tropical remote sensing applications.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 5 — GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#summary",
+    "href": "week5.html#summary",
+    "title": "Week 5 — GEE",
+    "section": "",
+    "text": "Figure 1. Administrative boundary of Ho Chi Minh City used as the spatial extent of analysis.\n\n\n\n\n\n\nFigure 2. Median RGB composite without pixel-level cloud masking. Residual haze and tonal inconsistencies remain visible.\n\n\n\n\n\n\nFigure 3. NDVI-based quality mosaic composite showing improved clarity and reduced cloud artefacts.\n\n\n\n\n\n\nFigure 4. NDVI map derived from the quality mosaic composite. Higher values represent vegetation while lower values correspond to built-up areas and water.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 5 — GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#applications",
+    "href": "week5.html#applications",
+    "title": "Week 5 — GEE",
+    "section": "Applications",
+    "text": "Applications\nCloud contamination remains one of the primary constraints in optical remote sensing, particularly in equatorial and tropical regions where persistent cloud cover limits usable observations. Many studies relying on Landsat or Sentinel imagery implement pixel-level quality masking and multi-temporal compositing to overcome this limitation. Roy et al. (2014) emphasise the importance of the Landsat Collection quality assessment bands for maintaining radiometric consistency and reliability across time series datasets. Automated cloud detection approaches, such as those discussed by Zhu and Woodcock (2012), further enhance the robustness of compositing workflows.\nIn urban environmental research, improved compositing directly affects downstream analyses such as land cover classification, urban heat island mapping, vegetation monitoring, and floodplain delineation. NDVI-based compositing is particularly useful in ecological and urban greening studies because it prioritises vegetation-rich pixels, often resulting in visually cleaner outputs. However, this method may introduce subtle bias by favouring vegetated surfaces over built-up areas, potentially influencing spectral representation in dense urban cores. This highlights the importance of methodological transparency when integrating Earth Observation data into environmental monitoring frameworks or policy-driven assessments.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 5 — GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html#reflection",
+    "href": "week5.html#reflection",
+    "title": "Week 5 — GEE",
+    "section": "Reflection",
+    "text": "Reflection\nThis practical changed my perception of image compositing from being a routine preprocessing step to a methodological decision that shapes analytical interpretation. In a cloud-prone tropical city such as Ho Chi Minh City, simple median compositing is insufficient for producing stable outputs. While NDVI-based quality mosaicking clearly improves image clarity, it may also prioritise certain land cover types, influencing downstream analyses. In future work, I would consider comparing percentile-based or median-of-best-pixels approaches to further evaluate compositing trade-offs. Overall, this exercise strengthened my understanding of how preprocessing decisions directly affect the reliability and credibility of urban remote sensing analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week 5 — GEE</span>"
     ]
   }
 ]

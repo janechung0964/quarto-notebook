@@ -13,6 +13,7 @@ book:
     - week2.qmd
     - week3.qmd
     - week4.qmd
+    - week5.qmd
 
 format:
   html:
