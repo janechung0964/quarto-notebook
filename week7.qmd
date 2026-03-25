@@ -103,7 +103,7 @@ Lu and Weng (2007) provide an overview of image classification approaches and di
 
 I also briefly reviewed Adams et al. (1995), which introduced the concept of spectral mixture analysis. This helped me better understand the theoretical background behind spectral unmixing.
 
-Although I only reviewed key sections of these papers, they helped me better interpret my results and understand the advantages of Classification II.
+Although I only reviewed key sections of these papers, they helped me better interpret my results and understand the advantages of ClassificationII.
 
 ## References
 
