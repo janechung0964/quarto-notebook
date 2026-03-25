@@ -300,11 +300,11 @@
     ]
   },
   {
-    "objectID": "week7.html#fraction-maps",
-    "href": "week7.html#fraction-maps",
+    "objectID": "week7.html#fraction-map",
+    "href": "week7.html#fraction-map",
     "title": "Week 7 — Classification2",
-    "section": "Fraction Maps",
-    "text": "Fraction Maps\nTo further explore the results, I also visualised individual fraction layers.\n\n\n\nUrban fraction\n\n\nUrban areas appear brighter in the urban fraction map, while vegetation areas appear darker. Mixed areas appear in grey tones, indicating that they contain multiple land cover types.\nThis confirms that spectral unmixing provides more detailed spatial information than traditional classification.",
+    "section": "Fraction Map",
+    "text": "Fraction Map\nTo further explore the spectral unmixing results, I visualised a composite fraction map using RGB colours. In this map, red represents urban fraction, green represents vegetation fraction, and blue represents water fraction.\n\n\n\nFraction composite map\n\n\nThis composite map reveals mixed land cover patterns more clearly than traditional classification. Areas with strong red tones indicate dominant urban land cover, while green areas represent vegetation-dominated regions, and blue areas correspond to water bodies. Mixed colours, such as yellow or purple, indicate pixels containing multiple land cover types.\nFor example, urban fringe areas often appear as mixed colours, suggesting a combination of built-up land and vegetation. This demonstrates how spectral unmixing captures sub-pixel variability that was not visible in the Week 6 classification.\nCompared to traditional classification, spectral unmixing provides more detailed spatial information and helps identify transitional areas between land cover types.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 7 — Classification2</span>"
     ]
@@ -335,16 +335,6 @@
     "title": "Week 7 — Classification2",
     "section": "References",
     "text": "References\nAdams, J. B., Sabol, D. E., Kapos, V., Almeida Filho, R., Roberts, D. A., Smith, M. O., & Gillespie, A. R. (1995). Spectral mixture modeling: A new analysis of rock and soil types at the Viking Lander 1 site. Journal of Geophysical Research, 100(E4), 8097–8112.\nLu, D., & Weng, Q. (2007). A survey of image classification methods and techniques for improving classification performance. International Journal of Remote Sensing, 28(5), 823–870.\nSmall, C. (2004). The Landsat ETM+ spectral mixing space. Remote Sensing of Environment, 93(1–2), 1–17.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 7 — Classification2</span>"
-    ]
-  },
-  {
-    "objectID": "week7.html#fraction-map",
-    "href": "week7.html#fraction-map",
-    "title": "Week 7 — Classification2",
-    "section": "Fraction Map",
-    "text": "Fraction Map\nTo further explore the spectral unmixing results, I visualised a composite fraction map using RGB colours. In this map, red represents urban fraction, green represents vegetation fraction, and blue represents water fraction.\n\n\n\nFraction composite map\n\n\nThis composite map reveals mixed land cover patterns more clearly than traditional classification. Areas with strong red tones indicate dominant urban land cover, while green areas represent vegetation-dominated regions, and blue areas correspond to water bodies. Mixed colours, such as yellow or purple, indicate pixels containing multiple land cover types.\nFor example, urban fringe areas often appear as mixed colours, suggesting a combination of built-up land and vegetation. This demonstrates how spectral unmixing captures sub-pixel variability that was not visible in the Week 6 classification.\nCompared to traditional classification, spectral unmixing provides more detailed spatial information and helps identify transitional areas between land cover types.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week 7 — Classification2</span>"
     ]
