@@ -56,7 +56,7 @@ I also found the process of improving the map from a continuous temperature surf
 
 However, one challenge this week was that temperature calculation and visualisation required several steps, and it was sometimes difficult to determine whether the results were correct. This made the process slightly frustrating at times. Despite this, the final output was rewarding, especially when the spatial patterns became clearer.
 
-Overall, I found this week's practical useful and relevant to urban studies. Urban temperature analysis could be helpful in future research, particularly in topics such as climate adaptation, urban planning, and environmental justice. Even if I do not directly use this exact method in the future, the skills learned in handling remote sensing data and interpreting spatial patterns will likely be valuable.
+Overall, I found this week's practical useful and relevant to urban studies. I think Urban temperature analysis could be helpful in future research, particularly in topics such as climate adaptation, urban planning, and environmental justice. Even if I do not directly use this exact method in the future, the skills learned in handling remote sensing data and interpreting spatial patterns will likely be valuable.
 
 
 ## References
