@@ -8,7 +8,7 @@
 
 <meta name="author" content="ZHONG JIAJUN">
 
-<title>Learning Diary</title>
+<title>Week 8 — Temperature – Learning Diary</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week1.html" rel="next">
+<link href="./week7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Learning Diary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week8.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 8 — Temperature</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Learning Diary</span></span></a>
   </div>
 </li>
@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week8.html" class="sidebar-item-text sidebar-link">
+  <a href="./week8.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week 8 — Temperature</span></span></a>
   </div>
 </li>
@@ -167,15 +167,26 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#data-and-method" id="toc-data-and-method" class="nav-link" data-scroll-target="#data-and-method">Data and Method</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning Diary</h1>
+<h1 class="title"><span class="chapter-title">Week 8 — Temperature</span></h1>
+<p class="subtitle lead">Urban Temperature Analysis</p>
 </div>
 
 
@@ -198,11 +209,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my Remote Sensing learning diary.</p>
-<p>This site documents my conceptual and methodological development throughout the CASA0023 module. Each chapter represents one week of learning, moving from foundational principles of satellite observation to more advanced analytical and policy-oriented applications.</p>
-<p>The diary emphasises critical understanding rather than code execution. While practical workflows are developed separately, this space focuses on how Earth Observation data can be interpreted, evaluated, and applied to urban and environmental decision-making.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This week focused on analysing urban temperature patterns using remote sensing data in Google Earth Engine. As this was the final practical of the course, I chose London as my study area, which is also the city where I am currently studying. This made the exercise more meaningful, as I could relate the temperature patterns to places I am familiar with and better interpret the results.</p>
+<p>The practical introduced Land Surface Temperature (LST) derived from satellite imagery, which can be used to explore urban heat island effects. Urban heat islands occur when built-up areas experience higher temperatures than surrounding rural areas due to impervious surfaces, reduced vegetation, and anthropogenic heat (Oke, 1982).</p>
+<p>The aim of this practical was to calculate surface temperature using Landsat imagery, aggregate temperature values at borough level, and visualise spatial temperature patterns across London.</p>
+</section>
+<section id="data-and-method" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-method">Data and Method</h2>
+<p>I selected London as the study area and imported London borough boundaries into Google Earth Engine. Landsat 8 imagery from summer 2022 was used to calculate land surface temperature. The thermal band (ST_B10) was converted to Celsius using the formula provided in the practical.</p>
+<p>First, I generated a continuous temperature surface for London using Landsat imagery. This provided an overview of spatial temperature variation across the city.</p>
+<section id="continuous-temperature-map" class="level3">
+<h3 class="anchored" data-anchor-id="continuous-temperature-map">Continuous Temperature Map</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week8/temperature.png" class="img-fluid figure-img"></p>
+<figcaption>London temperature</figcaption>
+</figure>
+</div>
+<p>After generating the continuous temperature map, I calculated the average temperature for each borough using <code>reduceRegions()</code>. Then, I classified boroughs into percentile categories based on their mean temperature values. This allowed comparison between boroughs and highlighted areas with relatively higher temperatures.</p>
+<p>This approach follows common urban heat island studies where remote sensing is used to analyse spatial temperature variation across urban environments (Voogt &amp; Oke, 2003).</p>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>To improve interpretation, I calculated mean temperature values for each borough and classified them into percentile groups.</p>
+<section id="borough-level-temperature-classification" class="level3">
+<h3 class="anchored" data-anchor-id="borough-level-temperature-classification">Borough-level Temperature Classification</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/week8/percentile.png" class="img-fluid figure-img"></p>
+<figcaption>London percentile</figcaption>
+</figure>
+</div>
+<p>The classified map shows clearer spatial patterns. Western boroughs generally appear cooler, while central and eastern boroughs show higher temperature values. One borough in northeast London appears as the hottest category, indicating higher surface temperatures compared to surrounding areas.</p>
+<p>Although urban heat island theory often suggests that city centres are the warmest areas, the results show that some eastern boroughs also experience high temperatures. This may be related to differences in land cover, such as industrial areas, impervious surfaces, and lower vegetation coverage.</p>
+</section>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>This week’s practical demonstrated the importance of spatial aggregation when analysing temperature data. The first continuous temperature map was difficult to interpret due to pixel-level variation and extreme values. By calculating borough-level averages and using percentile classification, the second map provided clearer spatial patterns.</p>
+<p>This process highlights how data transformation can improve interpretation and communication of spatial results. The borough-level classification made it easier to identify temperature differences across London.</p>
+<p>One interesting observation was that the hottest area was not strictly located in central London. While this differs slightly from the expected urban heat island pattern, it suggests that land cover and local urban structure may also influence temperature distribution. This highlights the complexity of urban thermal environments.</p>
+<p>Another issue encountered during the practical was that the initial temperature visualisation appeared unrealistic, with most areas showing extreme values. After checking the calculation steps and following the instructions more carefully, the temperature range became more reasonable. This highlighted the importance of verifying intermediate outputs and ensuring that temperature conversion steps are correctly applied.</p>
+<p>Overall, this final practical provided a useful summary of the skills learned throughout the course, combining remote sensing, spatial analysis, and visualisation. Using London as the study area also made the results more meaningful and helped connect the technical workflow with real-world urban environments.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Oke, T. R. (1982). The energetic basis of the urban heat island. <em>Quarterly Journal of the Royal Meteorological Society</em>, 108(455), 1–24.</p>
+<p>Voogt, J. A., &amp; Oke, T. R. (2003). Thermal remote sensing of urban climates. <em>Remote Sensing of Environment</em>, 86(3), 370–384.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -607,11 +665,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./week7.html" class="pagination-link" aria-label="Week 7 — Classification2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 7 — Classification2</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week1.html" class="pagination-link" aria-label="Week 1 — Getting started">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 1 — Getting started</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
