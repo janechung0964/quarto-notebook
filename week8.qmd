@@ -1,20 +1,21 @@
 ---
-title: "Week 8 — Temperature"
+title: "Week 8 – Temperature"
 subtitle: "Urban Temperature Analysis"
 author: "ZHONG JIAJUN"
 format:
   html:
     toc: true
     toc-depth: 2
-    number-sections: false
+    number-sections: true
 execute:
   echo: false
   warning: false
   message: false
 ---
+
 ## Summary
 
-This week focused on analysing urban temperature using remote sensing data in Google Earth Engine. As this was the final practical of the course, I chose London as my study area. Since London is the city where I am currently studying and living, this made the exercise more meaningful and allowed me to interpret spatial patterns based on familiar locations. Using London for the final practical also felt like a natural way to conclude the course, bringing together the skills learned throughout previous weeks.
+This week focused on analysing urban temperature using remote sensing data in Google Earth Engine. As this was the final practical of the course, I chose London as my study area. Since London is the city where I am currently studying and living, this made the exercise more meaningful and allowed me to interpret spatial patterns based on familiar locations. Using London for the final practical also felt like a fitting way to conclude the course, bringing together the skills learned throughout previous weeks.
 
 ### Study Area
 
@@ -36,7 +37,6 @@ To improve interpretation, I calculated the mean temperature for each borough us
 
 The percentile classification provided a clearer spatial pattern. Western London boroughs generally appeared cooler, while parts of central and eastern London showed higher temperature values. Interestingly, the hottest borough appeared in northeast London rather than in the city centre. This suggests that urban heat patterns may be influenced by land cover, vegetation, and built environment characteristics.
 
-
 ## Applications
 
 Urban temperature analysis using remote sensing is widely used in urban heat island studies. Oke (1982) explains that urban heat islands occur due to reduced vegetation, impervious surfaces, and anthropogenic heat. Remote sensing provides an efficient way to measure temperature variation across large urban areas.
@@ -45,19 +45,17 @@ Voogt and Oke (2003) demonstrate how thermal remote sensing can be applied to an
 
 In the case of London, temperature mapping could be used to support climate adaptation strategies, identify vulnerable neighbourhoods, and guide urban greening policies. This shows that remote sensing temperature analysis has practical applications in urban planning and environmental management.
 
-
 ## Reflection
 
-This week helped me better understand how remote sensing can be used to analyse urban temperature patterns. I found it particularly interesting to see how satellite data can reveal spatial differences within a city. Using London made the results more engaging, as I could recognise different areas and relate them to real-world environments.
+This week helped me better understand how remote sensing can be used to analyse urban temperature patterns. I found it particularly interesting to see how satellite data can reveal spatial differences within a city. Using London made the results more engaging, as I could recognise different areas and relate them to real urban environments.
 
 One interesting aspect was that the hottest area was not located in central London, which was slightly different from my expectations based on urban heat island theory. This made me realise that urban temperature patterns are more complex and influenced by factors such as land cover, vegetation, and built environment characteristics. It also highlighted the importance of not assuming expected results and instead carefully interpreting the data.
 
 I also found the process of improving the map from a continuous temperature surface to a borough-level classification particularly useful. The first map was difficult to interpret, while the second map provided clearer spatial patterns. This demonstrated the importance of data aggregation and visualisation techniques in spatial analysis.
 
-However, one challenge this week was that temperature calculation and visualisation required several steps, and it was sometimes difficult to determine whether the results were correct. This made the process slightly frustrating at times. Despite this, the final output was rewarding, especially when the spatial patterns became clearer.
+However, one challenge this week was that temperature calculation and visualisation required several steps, and it was sometimes difficult to determine whether the results were correct. This made the process slightly frustrating at times. Even so, the final output was rewarding, especially when the spatial patterns became clearer.
 
-Overall, I found this week's practical useful and relevant to urban studies. I think Urban temperature analysis could be helpful in future research, particularly in topics such as climate adaptation, urban planning, and environmental justice. Even if I do not directly use this exact method in the future, the skills learned in handling remote sensing data and interpreting spatial patterns will likely be valuable.
-
+Overall, I found this week's practical useful and relevant to urban studies. Urban temperature analysis could be helpful in future research, particularly in topics such as climate adaptation, urban planning, and environmental justice. Even if I do not directly use this exact method in the future, the skills learned in handling remote sensing data and interpreting spatial patterns will likely be valuable.
 
 ## References
 
