@@ -12,8 +12,6 @@ execute:
   warning: false
   message: false
 ---
-# Week 8 — Urban Temperature Analysis
-
 ## Summary
 
 This week focused on analysing urban temperature using remote sensing data in Google Earth Engine. As this was the final practical of the course, I chose London as my study area. Since London is the city where I am currently studying and living, this made the exercise more meaningful and allowed me to interpret spatial patterns based on familiar locations. Using London for the final practical also felt like a natural way to conclude the course, bringing together the skills learned throughout previous weeks.
